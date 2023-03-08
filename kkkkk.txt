@@ -1,0 +1,11 @@
+package UseOfTool;
+public class DoWhile{
+   publi static void main (String[]args){
+     int f = 2;
+    do{
+   System.out.println(f);
+   f = f + 2
+   }
+  while( f<=60)
+   }
+}

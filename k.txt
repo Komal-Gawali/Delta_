@@ -1,0 +1,89 @@
+1)  package komal;
+     public class Komal1{
+     public static void main(String[]args)
+  {
+      System.out.println("Hello, My name is Komal Gawali");
+    }  
+   }
+2)  package komal;
+   public class Komal2{
+ public static void main(String[]args){
+     String name = "Komal Prakash Gawali";
+   int a = 22;
+   System.out.println("what is your name ? " + name);
+     }
+   }
+3)   package komal;
+     public class Koma3{
+    
+
+   }
+methods 
+1. get method
+    driver.getProperty("Web site url");
+
+
+2. close method
+    driver.close();
+
+
+3. maximize
+    driver.manage().window().maximize();
+
+
+4. quit
+   driver.quit();
+
+
+5. navigate
+   driver.navigate().to(" url");
+   driver.nvigate().forward();
+   driver.navigate().back();
+   driver.navigate().refresh();
+
+6. get title
+    String actTitle = driver.getTitle();
+    System.out.println(actTitle);
+
+
+7. get current url
+    System.out.println(driver.getCurrentUrl());
+
+
+8. setSize
+    Dimension d = new Dimension(988, 998);
+    driver.manage().window().setSize(parameter)
+
+
+locater
+i. tagName
+ii. id
+iii. Name
+iv. ClassName
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

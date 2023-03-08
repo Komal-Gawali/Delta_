@@ -1,0 +1,13 @@
+ package komal;
+      public class Prog2{
+      public static void main(String[]args)
+      {
+      String bloodgp = "O+";
+      if(bloodgp== O+){
+        System.out.println()
+
+
+          }
+        
+        }
+     }
