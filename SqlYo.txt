@@ -1,0 +1,8 @@
+create table employee(empId int primary key,salary int,name varchar(20));
+create table department(dept_id int primary key, dept_name varchar(20));
+
+alter table employee modify name varchar(50);
+
+alter table employee ADD dept_id int refernce department(dept_id);
+
+select name from  employee join  department ON employee.dept_id=department.dept_id;
